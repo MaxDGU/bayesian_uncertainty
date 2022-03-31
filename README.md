@@ -5,7 +5,7 @@ In this project I build a statistical inference machine for classifying gene exp
 
 VAEBatchEnsemble.py implements HyperBatchEnsemble on a Tensorflow Convolutional VAE to test the baseline effectiveness of HBE on a vanilla VAE. 
 SCVI BatchEnsemble.ipynb is a beginning notebook for implementing HBE on the SCVI VAE. Source code for HBE from Uncertainty Baselines. 
-Expression_Tests.ipynb runs sampling on 9 gene markets from the fibroblast, smooth muscle, and myeloid cell groups from SCVI training data. Key results from Expression_Tests are shown in SCVI Experimentation.PDF. Plots reveal behavior of these key gene markers over many initializations of SCVI. SCVI training data for 36 initializations found on Azizi Lab GCP: instances/detests (https://console.cloud.google.com/ai-platform/notebooks/list/instances?project=azizilab-aml). 
+Expression_Tests.ipynb runs sampling on 9 gene markers from the fibroblast, smooth muscle, and myeloid cell groups from SCVI training data. Key results from Expression_Tests are shown in SCVI Experimentation.PDF. Plots reveal behavior of these key gene markers over many initializations of SCVI. SCVI training data for 36 initializations found on Azizi Lab GCP: instances/detests (https://console.cloud.google.com/ai-platform/notebooks/list/instances?project=azizilab-aml). 
 Statistics.ipynb shows further summary statistics for the 9 key gene markers. 
 
 High level overview of HBE as a method is included in BatchEnsemble Overview. 
