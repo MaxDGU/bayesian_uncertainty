@@ -1,7 +1,7 @@
 # bayesian_uncertainty
 This is my research project for the Irving Center for Cancer Dynamics/Azizi Lab, Columbia University.
-
-In this project I build a statistical inference machine for classifying gene expressions in high-dimensional genome datasets. This is from my position as research assistant at the Azizi Lab for Computational Cancer Biology at Columbia University. Work done in the Google Cloud Platform running PyTorch. The dataset (cells of the adult human heart) contains 18641 cells, each with 26662 genes, totaling ~497 million data points. Implements VAE's to denoise and unpack uncertainty in the gene expression levels of each gene and each gene group. 
+A paper draft is listed in PDF form above, for the quickest summary. 
+In this project I build a statistical inference ML pipeline for classifying gene expressions in high-dimensional genome datasets. This is from my position as research assistant at the Azizi Lab for Computational Cancer Biology at Columbia University. Work done in the Google Cloud Platform running PyTorch. The dataset (cells of the adult human heart) contains 18641 cells, each with 26662 genes, totaling ~497 million data points. Implements VAE's to denoise and unpack uncertainty in the gene expression levels of each gene and each gene group. 
 
 VAEBatchEnsemble.py implements HyperBatchEnsemble on a Tensorflow Convolutional VAE to test the baseline effectiveness of HBE on a vanilla VAE. 
 SCVI BatchEnsemble.ipynb is a beginning notebook for implementing HBE on the SCVI VAE. Source code for HBE from Uncertainty Baselines. 
